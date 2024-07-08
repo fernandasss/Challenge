@@ -1,0 +1,47 @@
+body{
+  background-image: url(TEXTURE040.jpg);
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding:3%;
+}
+main{
+  display:flex;
+  justify-content:center;
+}
+textarea{
+  height: 400px;
+  text-transform: lowercase;
+}
+.textoaEncriptar{
+  margin-right: 60px;
+  opacity: 50%;
+}
+h6{
+  margin:0.5px
+}
+.textoEncriptado{
+  border-radius: 10px;
+  border: 6px solid #ccc;
+}
+.botones{
+  display:flex
+  height
+  
+}
+.btnEncriptar, .btnDesencriptar, .btnCopiar {
+  color:black;
+  background-color: white;
+  border-radius: 5px;
+  border-width: 4px solic #ccc;
+  border-color: black;
+  width: 30%;
+  font-size: 18px;
+  transition: 1s all;
+  cursor:pointer;
+}
+
+footer{
+  line-height: 100px;
+  margin-left: 11%;
+}

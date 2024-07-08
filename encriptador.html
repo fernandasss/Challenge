@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador Fernanda</title>
+    
+    </head>
+        <header>
+        <h1>Bienvenido al encriptador de texto de Fernanda</h1>
+    </header>
+    <body>
+        <main>
+            <section>
+                <textarea class="textoaEncriptar" cols="50" placeholder="Escriba aquí el texto a encriptar."></textarea>
+                <div>
+                    <h6>*Sólo letras minúsculas y sin acentos.</h6>
+                </div>
+                <div class = "botones">
+                    <button class= "btnEncriptar"  onclick = btnEncriptar()>Encriptar</button>
+                    <button class= "btnDesencriptar" onclick = btnDesencriptar()>Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="textoEncriptado" cols="50"></textarea>
+                <div>
+                    <button class="btnCopiar" onclick=copiar()>Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h6>Este encriptador fue creado y diseñado por Fernanda el año 2024</h6>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
